@@ -1,0 +1,22 @@
+.persona__imagen--roberta {
+    background: url(/arquitectura-css-assets/assets/img/personas/roberta.jpg);
+
+}
+
+.persona__imagen--marcela {
+    background: url(/arquitectura-css-assets/assets/img/personas/marcela.jpg);
+
+}
+
+.persona__imagen--andrea {
+    background: url(/arquitectura-css-assets/assets/img/personas/andrea.jpg);
+
+}
+
+/*Tener en cuenta el orden, colocar las propiedades de background despues de declararlo*/
+.persona__imagen {
+    background-position: center; background-repeat: no-repeat;background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}

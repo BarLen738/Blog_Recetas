@@ -1,0 +1,37 @@
+.persona {
+    display: flex;
+    flex-direction: column;
+}
+
+.personas {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+    
+}
+
+@media screen and (min-width: 0) {
+    .persona {
+        margin-bottom: 2rem;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    .persona {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .personas {
+        flex-direction: column;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+    .personas {
+        flex-direction: row;
+    }
+}

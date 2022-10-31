@@ -1,0 +1,15 @@
+-Atomic Design-
+Metodologia de disenho atomico
+Ayuda a organizar la estructura de las carpetas y los componentes
+Las tags son atomos
+Todos los atomos forman una molecula
+Varias moleculas unidas forman un organismo
+Plantillas, cuadros y bocetos
+Paginas, informacion real
+
+-BEM Block Element Modifier-
+Estructura que sigue un patron para nombrar las clases. Cada clase se nombra respetando jerarquias de tags padre-hija
+bloque, nombre simple de la clase
+bloque__elemento
+bloque--bloque
+bloque__elemento--modificador
