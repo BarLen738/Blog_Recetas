@@ -1,15 +1,15 @@
 .persona__imagen--roberta {
-    background: url(assets/img/personas/roberta.jpg);
+    background: url(/Blog_Recetas/assets/img/personas/roberta.jpg);
 
 }
 
 .persona__imagen--marcela {
-    background: url(assets/img/personas/marcela.jpg);
+    background: url(/Blog_Recetas/assets/img/personas/marcela.jpg);
 
 }
 
 .persona__imagen--andrea {
-    background: url(assets/img/personas/andrea.jpg);
+    background: url(/Blog_Recetas/assets/img/personas/andrea.jpg);
 
 }
 
