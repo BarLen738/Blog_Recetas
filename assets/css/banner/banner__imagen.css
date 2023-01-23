@@ -6,14 +6,19 @@
 
 @media screen and (min-width: 0) {
     .banner__imagen {
-        height: calc(100vh - 51px);
+        height: calc(65vh - 51px);
       
     }
 }
 
 @media screen and (min-width: 768px) {
     .banner__imagen {
-        height: calc(100vh - 72px);
+        height: calc(65vh - 42px);
+    }
+}
 
+@media screen and (min-width: 1200px) {
+    .banner__imagen {
+        height: calc(55vh - 22px);
     }
 }

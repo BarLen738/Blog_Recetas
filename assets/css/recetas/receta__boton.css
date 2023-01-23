@@ -5,3 +5,10 @@
     border-radius: 5px;
     padding: 1rem;
 }
+
+
+@media screen and (min-width: 768px) {
+    .receta__boton {
+        width: 50%;
+    }
+}

@@ -1,3 +1,32 @@
 .receta__imagen {
     height: 200px;
 }
+
+@media screen and (min-width: 408px) {
+    .receta__imagen {
+        min-height: 250px;
+    min-width: 300px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .receta__imagen {
+        min-height: 300px;
+    min-width: 400px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .receta__imagen {
+        min-height: 200px;
+    min-width: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .receta__imagen {
+        min-height: 300px;
+    min-width: 200px;
+    }
+}

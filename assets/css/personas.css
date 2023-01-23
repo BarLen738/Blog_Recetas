@@ -31,7 +31,9 @@
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-    .personas {
+    div.personas {
         flex-direction: row;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }

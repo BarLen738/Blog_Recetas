@@ -1,3 +1,12 @@
 .receta__contenido {
     padding: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    div.receta__contenido {
+        min-height: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    }
+}
